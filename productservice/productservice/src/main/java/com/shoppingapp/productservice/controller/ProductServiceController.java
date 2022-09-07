@@ -25,6 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/api/v1.0/Shopping")
 @Slf4j
 public class ProductServiceController {
+	
 	@Autowired
 	AuthFeign authfeign;
 	@Autowired
